@@ -6,6 +6,8 @@ public class Users implements Serializable {
    private String userName;
    private  Integer password;
 private  Integer id;
+   private String abc;
+   //我测试gitHub和本地不一样的时候的冲突
 
     public Integer getId() {
         return id;
