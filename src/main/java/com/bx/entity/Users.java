@@ -5,14 +5,14 @@ import java.io.Serializable;
 public class Users implements Serializable {
    private String userName;
    private  Integer password;
-   private  String age;
+private  Integer id;
 
-    public String getAge() {
-        return age;
+    public Integer getId() {
+        return id;
     }
 
-    public void setAge(String age) {
-        this.age = age;
+    public void setId(Integer id) {
+        this.id = id;
     }
 
     public String getUserName() {
