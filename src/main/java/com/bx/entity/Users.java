@@ -7,16 +7,9 @@ public class Users implements Serializable {
    private  Integer password;
    private  String abc;
    private  String vc;
-   public  Users (){
-       return;
-   }
+private String aaa;
 
-   //我测试gitHub和本地不一样的时候的冲突第一次测试
-   //第二次测试 两个版本全部保留
-   
-   //第三次测试 只保留一个
-//第四次测试
-   //第五次测试
+
 
 //第六次测试
 
