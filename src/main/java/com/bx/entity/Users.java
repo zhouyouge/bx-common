@@ -5,9 +5,7 @@ import java.io.Serializable;
 public class Users implements Serializable {
    private String userName;
    private  Integer password;
-private  String id;
 
-   private String abc;
    //我测试gitHub和本地不一样的时候的冲突第一次测试
    //第二次测试 两个版本全部保留
    
@@ -15,13 +13,7 @@ private  String id;
 //第四次测试
    //第五次测试
 
-    public String getId() {
-        return id;
-    }
-
-    public void setId(String id) {
-        this.id = id;
-    }
+//第六次测试
 
     public String getUserName() {
         return userName;
