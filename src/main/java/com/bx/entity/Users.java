@@ -6,12 +6,15 @@ public class Users implements Serializable {
    private String userName;
    private  Integer password;
 private  String id;
+private  Integer id;
+   private String abc;
+   //我测试gitHub和本地不一样的时候的冲突
 
-    public String getId() {
+    public Integer getId() {
         return id;
     }
 
-    public void setId(String id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 
