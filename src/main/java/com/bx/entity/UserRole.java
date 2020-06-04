@@ -19,7 +19,7 @@ public class UserRole implements Serializable {
     /**
     * 员工Id
     */
-    private Integer userid;
+    private String userid;
     /**
     * 分区Id，指定员工所属的分区编号
     */
@@ -42,11 +42,11 @@ public class UserRole implements Serializable {
         this.roleid = roleid;
     }
 
-    public Integer getUserid() {
+    public String getUserid() {
         return userid;
     }
 
-    public void setUserid(Integer userid) {
+    public void setUserid(String userid) {
         this.userid = userid;
     }
 

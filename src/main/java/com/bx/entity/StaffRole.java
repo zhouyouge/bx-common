@@ -1,6 +1,7 @@
 package com.bx.entity;
 
 import java.io.Serializable;
+import java.util.List;
 
 /**
  * (StaffRole)实体类
@@ -15,7 +16,7 @@ public class StaffRole implements Serializable {
     /**
     * 角色名称
     */
-    private String name;
+    private String rname;
     /**
     * 角色描述
     */
@@ -24,7 +25,18 @@ public class StaffRole implements Serializable {
     private Object createtime;
     
     private Object updatetime;
+    /**
+     * 一个角色可能有多个权限
+     */
+    private List<StaffPermission> staffPermissions;
 
+    public List<StaffPermission> getStaffPermissions() {
+        return staffPermissions;
+    }
+
+    public void setStaffPermissions(List<StaffPermission> staffPermissions) {
+        this.staffPermissions = staffPermissions;
+    }
 
     public Integer getId() {
         return id;
@@ -34,12 +46,12 @@ public class StaffRole implements Serializable {
         this.id = id;
     }
 
-    public String getName() {
-        return name;
+    public String getRname() {
+        return rname;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setRname(String rname) {
+        this.rname = rname;
     }
 
     public String getDescription() {

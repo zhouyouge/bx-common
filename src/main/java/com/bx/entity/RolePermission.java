@@ -15,7 +15,7 @@ public class RolePermission implements Serializable {
     /**
     * 角色id
     */
-    private Integer role;
+    private Integer roleId;
     /**
     * 权限id
     */
@@ -30,12 +30,12 @@ public class RolePermission implements Serializable {
         this.id = id;
     }
 
-    public Integer getRole() {
-        return role;
+    public Integer getRoleId() {
+        return roleId;
     }
 
-    public void setRole(Integer role) {
-        this.role = role;
+    public void setRoleId(Integer roleId) {
+        this.roleId = roleId;
     }
 
     public Integer getPid() {

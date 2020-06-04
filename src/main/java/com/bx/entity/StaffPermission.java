@@ -17,7 +17,7 @@ public class StaffPermission implements Serializable {
     /**
     * 权限名称
     */
-    private String name;
+    private String pname;
     /**
     * 权限描述
     */
@@ -36,12 +36,12 @@ public class StaffPermission implements Serializable {
         this.id = id;
     }
 
-    public String getName() {
-        return name;
+    public String getPname() {
+        return pname;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setPname(String pname) {
+        this.pname = pname;
     }
 
     public String getDescription() {

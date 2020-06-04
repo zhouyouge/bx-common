@@ -8,6 +8,8 @@
         <outputRelativeToContentRoot value="true" />
         <module name="bx-common" />
         <module name="bxcommon" />
+        <module name="bx-userprovider" />
+        <module name="bx-userconsumer" />
       </profile>
     </annotationProcessing>
   </component>

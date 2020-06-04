@@ -1,6 +1,7 @@
 package com.bx.entity;
 
 import java.io.Serializable;
+import java.util.List;
 
 /**
  * (StaffInfo)实体类
@@ -34,7 +35,30 @@ public class StaffInfo implements Serializable {
     * 0：在线；1：离线
     */
     private Integer status;
+    /**
+     * 0在职  1离职
+     */
+    private  Integer status2;
 
+    public Integer getStatus2() {
+        return status2;
+    }
+
+    public void setStatus2(Integer status2) {
+        this.status2 = status2;
+    }
+    /**
+     * 一个用户可能有多个角色
+     */
+    private List<StaffRole> staffRoles;
+
+    public List<StaffRole> getStaffRoles() {
+        return staffRoles;
+    }
+
+    public void setStaffRoles(List<StaffRole> staffRoles) {
+        this.staffRoles = staffRoles;
+    }
 
     public String getStaffId() {
         return staffId;
